@@ -1,0 +1,35 @@
+@font-face {
+  font-family: 'Muli';
+  src: url('./fonts/Muli-Bold.ttf'),
+       url('./fonts/Muli-BlackItalic.ttf'), 
+       url('./fonts/Muli-Black.ttf'), 
+       url('./fonts/Muli-BoldItalic.ttf'), 
+       url('./fonts/Muli-ExtraBold.ttf'), 
+       url('./fonts/Muli-ExtraBoldItalic.ttf'), 
+       url('./fonts/Muli-ExtraLight.ttf'), 
+       url('./fonts/Muli-ExtraLightItalic.ttf'), 
+       url('./fonts/Muli-Italic.ttf'), 
+       url('./fonts/Muli-Light.ttf'), 
+       url('./fonts/Muli-LightItalic.ttf'), 
+       url('./fonts/Muli-Regular.ttf'), 
+       url('./fonts/Muli-SemiBold.ttf'), 
+       url('./fonts/Muli-SemiBoldItalic.ttf');
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+span {
+  font-family: 'Muli';
+}
