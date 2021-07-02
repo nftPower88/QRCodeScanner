@@ -1,0 +1,87 @@
+.App {
+  text-align: left;
+}
+
+.spinning {
+  animation: spinning infinite 20s linear;
+  pointer-events: none;
+}
+
+.am-popover-item {
+  cursor:pointer;
+}
+
+@keyframes spinning {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* For folder sidebar height */
+.am-list-body{
+  height: 100vh;
+}
+
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background: #b8b4b473;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(167, 166, 166, 0.336);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-corner {
+  display: none;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.grid::after {
+  content: '';
+  flex-grow: 999999999;
+}
+
+.grid > figure {
+  margin: 1px;
+  position: relative;
+  user-select: none;
+}
+
+.grid > figure > i {
+  display: block;
+}
+
+.grid > figure > img {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  vertical-align: bottom;
+}
+
+span {
+  font-family: 'Muli';
+}
